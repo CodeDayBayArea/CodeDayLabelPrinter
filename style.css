@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  outline: none;
+  border: none; 
+}
+
+input, button, select, textarea {
+  font: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+@font-face {
+    font-family:AvenirNextLTProBold;src:url("fonts/avenir/avenirnextltpro-bold.eot");src:url("fonts/avenir/avenirnextltpro-bold.eot") format('embedded-opentype'),url("fonts/avenir/avenirnextltpro-bold.woff") format('woff'),url("fonts/avenir/avenirnextltpro-bold.ttf") format('truetype'),url("fonts/avenir/avenirnextltpro-bold.svg#AvenirNextLTProBold") format('svg');font-weight:700;
+}
+
+@font-face {
+    font-family:AvenirNextLTProMedium;src:url("fonts/avenir/avenirnextltpro-medium.eot");src:url("fonts/avenir/avenirnextltpro-medium.eot") format('embedded-opentype'),url("fonts/avenir/avenirnextltpro-medium.woff") format('woff'),url("fonts/avenir/avenirnextltpro-medium.ttf") format('truetype'),url("fonts/avenir/avenirnextltpro-medium.svg#AvenirNextLTProMedium") format('svg');font-weight:600;
+}
+
+@font-face {
+    font-family:AvenirNextLTProRegular;src:url("fonts/avenir/avenirnextltpro-regular.eot");src:url("fonts/avenir/avenirnextltpro-regular.eot") format('embedded-opentype'),url("fonts/avenir/avenirnextltpro-regular.woff") format('woff'),url("fonts/avenir/avenirnextltpro-regular.ttf") format('truetype'),url("fonts/avenir/avenirnextltpro-regular.svg#AvenirNextLTProRegular") format('svg');font-weight:400;
+}
+
+@font-face {
+    font-family:AvenirNextLTProUltraLight;src:url("fonts/avenir/avenirnextltpro-ultlt.eot");src:url("fonts/avenir/avenirnextltpro-ultlt.eot") format('embedded-opentype'),url("fonts/avenir/avenirnextltpro-ultlt.woff") format('woff'),url("fonts/avenir/avenirnextltpro-ultlt.ttf") format('truetype'),url("fonts/avenir/avenirnextltpro-ultlt.svg#AvenirNextLTProUltraLight") format('svg');font-weight:300;
+}
+
+html {
+  height: 100%;
+  color: #3d464d;
+  font: 112.5% / 1.4 "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 10px; 
+}
+
+body {
+	background-color: #fff;
+	height: 100%; 
+}
+
+.outer {
+	display: table; 
+	position: absolute; 
+	height: 100%; 
+	width: 100%;
+}
+
+.middle {
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 0 175px 0;
+	margin-top: -90px;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+header p {
+	font-size: 16px;
+	margin-top: 5px;
+	color: #999;
+}
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	position: fixed;
+    bottom: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	font-size: 15px;
+}
+
+input[type="text"]::-webkit-input-placeholder
+input[type="text"]::-moz-input-placeholder
+input[type="text"]:-moz-input-placeholder
+input[type="text"]:-ms-input-placeholder {
+   color: #d9d9d9;
+}
+
+input[type="text"] {
+	width: 190px;
+	height: 30px;
+	border-bottom: 2px dashed #e9e9e9;
+	border-radius: 3px;
+	padding: 1px 20px 0 10px;
+	float: center;
+	color: #545454;
+}
+
+button[type="submit"] {
+	height: 42px;
+	width: 75px;
+	border: 2px solid #54c562;
+	background-color: #fff;
+	color: #54c562;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 2px 10px 0 10px;
+	margin-left: 15px;
+	letter-spacing: 1px;
+	float: center;
+}
+
+::-webkit-input-placeholder
+:-moz-placeholder
+::-moz-placeholder 
+:-ms-input-placeholder {
+   color: #afb2b4;
+}
+
+button[type="submit"]:hover {
+	background-color: #54c562;
+	border: 2px solid #54c562;
+	color: #fff;
+}
+
+button[type="submit"]:active {
+	background-color: #54c562;
+	border: 2px solid #54c562;
+	color: #fff;
+}
+
+img {
+    height: 20vh;
+    width: auto;
+}

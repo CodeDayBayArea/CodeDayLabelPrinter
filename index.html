@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <title>CodeDay - Nametag Maker</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://labelwriter.com/software/dls/sdk/js/DYMO.Label.Framework.latest.js" type="text/javascript" charset="UTF-8"> </script>
+        <script src="xml.js" type="text/javascript" charset="UTF-8"> </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="outer">
+            <div class="middle">
+                <div class="row">
+                    <header>
+        			     <img src="codeday_logo.png"/>
+                        <p>The Official Nametag Printer</p>
+                    </header>
+                    <form>
+                    <input id="fullName" type="text" autofocus="true" maxlength="21" autocomplete="off" placeholder="Full Name"/> is a
+                    <select id="typeName" name="person">
+                        <option value="Participant">Participant</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Visitor">Visitor</option>
+                        <option value="Sponsor">Sponsor</option>
+                        <option value="Volunteer">Volunteer</option>
+                        <option value="Regional Manager">Regional Manager</option>
+                    </select>
+                        <button id="btn" type="submit">Print</button>
+                    </form>     
+                    <footer>
+                        <p>This won't work without <a target="_blank" href="http://www.dymo.com/en-US/labelwriter-450-label-printer#tabContainer">DYMO Software</a>.</p>
+                        <p>Created by <a target="_blank" href="http://grbk.co/">Ruslan Grebeniouk</a>.  Modified and uglified by <a href="http://sanil.co/">Sanil Chawla</a>.</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <embed type="application/x-npapi-dymolabel" id="_DymoLabelFrameworkJslPlugin" width="1" height="1" hidden="">
+    </body>
+</html>
